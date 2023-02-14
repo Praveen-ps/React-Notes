@@ -34,11 +34,15 @@ import {
 import ReducerCounter from "./Components/Hooks/UseReducerHook/ReducerCounter";
 import ReducerCounter2 from "./Components/Hooks/UseReducerHook/ReducerCounter2";
 import MultipleUseReducer from "./Components/Hooks/UseReducerHook/MultipleUseResucer";
+import FetchWithState from "./Components/Hooks/UseReducerHook/FetchWithState";
+import ReducerWithFetch from "./Components/Hooks/UseReducerHook/ReducerWithFetch";
 
 function App() {
   return (
     <div className="App">
-      <MultipleUseReducer />
+      <ReducerWithFetch />
+      {/* <FetchWithState /> */}
+      {/* <MultipleUseReducer /> */}
       {/* <ReducerCounter2 /> */}
       {/* <UserContext.Provider value="Praveen">
         <ChannelContext.Provider value="Code Evolution">
