@@ -36,11 +36,31 @@ import ReducerCounter2 from "./Components/Hooks/UseReducerHook/ReducerCounter2";
 import MultipleUseReducer from "./Components/Hooks/UseReducerHook/MultipleUseResucer";
 import FetchWithState from "./Components/Hooks/UseReducerHook/FetchWithState";
 import ReducerWithFetch from "./Components/Hooks/UseReducerHook/ReducerWithFetch";
+import Parent from "./Components/Hooks/UseCallBack/Parent";
+import MemoCounter from "./Components/Hooks/UseMemo/MemoCounter";
+import FocusDefaultInput from "./Components/Hooks/UseRef/FocusDefaultInput";
+import TimerClass from "./Components/Hooks/UseRef/TimerClass";
+import TimerFuncwithRef from "./Components/Hooks/UseRef/TimerFuncwithRef";
+import DocTitleOne from "./Components/CustomHooks/Custom1/DocTitleOne";
+import DocTitleTwo from "./Components/CustomHooks/Custom1/DocTitleTwo";
+import CounterOne from "./Components/CustomHooks/CustomHook2/CounterOne";
+import CounterTwo from "./Components/CustomHooks/CustomHook2/CounterTwo";
+import UserForm from "./Components/CustomHooks/CustomHook3/UserForm";
 
 function App() {
   return (
     <div className="App">
-      <ReducerWithFetch />
+      <UserForm />
+      {/* <CounterOne />
+      <CounterTwo /> */}
+      {/* <DocTitleOne />
+      <DocTitleTwo /> */}
+      {/* <TimerClass /> */}
+      {/* <TimerFuncwithRef /> */}
+      {/* <FocusDefaultInput /> */}
+      {/* <MemoCounter /> */}
+      {/* <Parent /> */}
+      {/* <ReducerWithFetch /> */}
       {/* <FetchWithState /> */}
       {/* <MultipleUseReducer /> */}
       {/* <ReducerCounter2 /> */}
